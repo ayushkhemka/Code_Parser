@@ -1,0 +1,41 @@
+﻿Build started 3/13/2016 8:51:08 PM.
+     1>Project "C:\Users\Ayush\Documents\Visual Studio 2015\Projects\Project2HelperCode\MetricsExecutive\MetricsExecutive.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _MBCS /D TEST_METRICSEXECUTIVE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt ..\FileMgr\FileMgr.cpp ..\FileMgr\FileSystem.cpp ..\MetricsAnalysis\MetricsAnalysis.cpp ..\Parser\ActionsAndRules.cpp ..\Parser\ConfigureParser.cpp ..\Parser\Parser.cpp ..\SemiExp\SemiExp.cpp ..\Tokenizer\Tokenizer.cpp ..\Utilities\Utilities.cpp MetricsExecutive.cpp
+         MetricsExecutive.cpp
+     1>c:\users\ayush\documents\visual studio 2015\projects\project2helpercode\parser\abssyntree.h(48): warning C4305: 'argument': truncation from 'int' to 'char'
+     1>c:\users\ayush\documents\visual studio 2015\projects\project2helpercode\parser\abssyntree.h(48): warning C4309: 'argument': truncation of constant value
+     1>c:\users\ayush\documents\visual studio 2015\projects\project2helpercode\metricsanalysis\metricsanalysis.h(49): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+         Utilities.cpp
+         Tokenizer.cpp
+         SemiExp.cpp
+         Parser.cpp
+         ConfigureParser.cpp
+     1>c:\users\ayush\documents\visual studio 2015\projects\project2helpercode\parser\abssyntree.h(48): warning C4305: 'argument': truncation from 'int' to 'char'
+     1>c:\users\ayush\documents\visual studio 2015\projects\project2helpercode\parser\abssyntree.h(48): warning C4309: 'argument': truncation of constant value
+     1>c:\users\ayush\documents\visual studio 2015\projects\project2helpercode\metricsanalysis\metricsanalysis.h(49): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+         ActionsAndRules.cpp
+         MetricsAnalysis.cpp
+     1>c:\users\ayush\documents\visual studio 2015\projects\project2helpercode\parser\abssyntree.h(48): warning C4305: 'argument': truncation from 'int' to 'char'
+     1>c:\users\ayush\documents\visual studio 2015\projects\project2helpercode\parser\abssyntree.h(48): warning C4309: 'argument': truncation of constant value
+     1>c:\users\ayush\documents\visual studio 2015\projects\project2helpercode\metricsanalysis\metricsanalysis.h(49): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+         FileSystem.cpp
+         FileMgr.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ayush\Documents\Visual Studio 2015\Projects\Project2HelperCode\x64\Debug\MetricsExecutive.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Ayush\Documents\Visual Studio 2015\Projects\Project2HelperCode\x64\Debug\MetricsExecutive.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ayush\Documents\Visual Studio 2015\Projects\Project2HelperCode\x64\Debug\MetricsExecutive.lib" /MACHINE:X64 x64\Debug\FileMgr.obj
+         x64\Debug\FileSystem.obj
+         x64\Debug\MetricsAnalysis.obj
+         x64\Debug\ActionsAndRules.obj
+         x64\Debug\ConfigureParser.obj
+         x64\Debug\Parser.obj
+         x64\Debug\SemiExp.obj
+         x64\Debug\Tokenizer.obj
+         x64\Debug\Utilities.obj
+         x64\Debug\MetricsExecutive.obj
+         MetricsExecutive.vcxproj -> C:\Users\Ayush\Documents\Visual Studio 2015\Projects\Project2HelperCode\x64\Debug\MetricsExecutive.exe
+     1>Done Building Project "C:\Users\Ayush\Documents\Visual Studio 2015\Projects\Project2HelperCode\MetricsExecutive\MetricsExecutive.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.56
